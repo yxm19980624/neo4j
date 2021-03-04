@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: knowl_graph
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/knowledge_graph?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: root
+  data:
+    neo4j:
+      uri: bolt://127.0.0.1:7687
+      username: root
+      password: root
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
