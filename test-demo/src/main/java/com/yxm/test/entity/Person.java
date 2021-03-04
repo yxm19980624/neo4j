@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.neo4j.ogm.annotation.GeneratedValue;
 import org.neo4j.ogm.annotation.Id;
-import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
 
 import java.util.List;
@@ -15,7 +14,6 @@ import java.util.List;
  * @Date: 2021/3/3 15:58
  * @Description: 节点实体
  */
-@NodeEntity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
