@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = "电影控制模块")
 public class MovieController {
 
-
     @Autowired
     private MovieRepository movieRepository;
 
@@ -55,5 +54,4 @@ public class MovieController {
     public Movie findByRevenueGT(@RequestParam String title) {
         return movieRepository.findByTitle(title);
     }
-
 }

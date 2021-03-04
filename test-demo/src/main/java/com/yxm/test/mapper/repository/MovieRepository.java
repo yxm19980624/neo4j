@@ -13,5 +13,4 @@ public interface MovieRepository extends Neo4jRepository<Movie, Long> {
     Movie findByTitle(@Param("title") String title);
 
     Iterable<Movie> findByReleased(int released);
-
 }
